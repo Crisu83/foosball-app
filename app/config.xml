@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ionicframework.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets"
+<widget id="com.crisu83.foosball" version="0.1.0" xmlns="http://www.w3.org/ns/widgets"
         xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>StarterApp</name>
+    <name>Foosball</name>
     <description>
-        Mobile application for trakcing foosball statistics.
+        Mobile application for tracking foosball statistics.
     </description>
     <author email="christoffer.niska@gmail.com" href="http://crisu83.me/">
         Christoffer Niska
