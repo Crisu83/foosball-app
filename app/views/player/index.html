@@ -1,0 +1,11 @@
+<ion-view title="title" left-buttons="leftButtons" right-buttons="rightButtons">
+  <ion-content has-header="true" has-tabs="true">
+
+    <ul class="list">
+      <li class="item item-icon-right" ng-repeat="player in players">
+        {{player.name}} <a href="#/tab/player/{{player.id}}"><i class="icon ion-ios7-compose-outline"></i></a>
+      </li>
+    </ul>
+
+  </ion-content>
+</ion-view>

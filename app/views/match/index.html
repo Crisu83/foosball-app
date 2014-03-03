@@ -1,0 +1,11 @@
+<ion-view title="title" left-buttons="leftButtons" right-buttons="rightButtons">
+  <ion-content has-header="true" has-tabs="true">
+
+    <ul class="list">
+      <li class="item item-icon-right" ng-repeat="match in matches">
+        {{match.name}} <a href="#/tab/match/{{match.id}}"><i class="icon ion-ios7-glasses-outline"></i></a>
+      </li>
+    </ul>
+
+  </ion-content>
+</ion-view>
