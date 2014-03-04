@@ -35,7 +35,7 @@ angular.module('foosballApp', [
         }
       })
       .state('tab.match-play', {
-        url: '/match/play/:matchId',
+        url: '/match/play',
         views: {
           'match-tab': {
             templateUrl: 'views/match/play.html',

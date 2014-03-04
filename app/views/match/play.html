@@ -1,5 +1,21 @@
 <ion-view title="title" left-buttons="leftButtons" right-buttons="rightButtons">
-  <ion-content has-header="true" has-tabs="true" padding="true">
+  <ion-content class="match-play" has-header="true" has-tabs="true" padding="true">
+
+    <div class="row">
+      <div class="col-50" ng-click="addGoal('home')">
+        <h3 class="team-name">Home</h3>
+        <p class="team-players">Foo</p>
+        <p class="team-score">{{goals['home']}}</p>
+      </div>
+      <div class="col-10">
+        <p class="score-divider">-</p>
+      </div>
+      <div class="col-50" ng-click="addGoal('away')">
+        <h3 class="team-name">Away</h3>
+        <p class="team-players">Bar</p>
+        <p class="team-score">{{goals['away']}}</p>
+      </div>
+    </div>
 
   </ion-content>
 </ion-view>

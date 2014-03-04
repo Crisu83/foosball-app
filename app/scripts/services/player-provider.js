@@ -14,7 +14,12 @@ angular.module('foosballApp')
         return players;
       },
       get: function(id) {
-        return players[id];
+        for (var i = 0; i < players.length; i++) {
+          if (players[i].id == id) {
+            return players[i];
+          }
+        }
+        return null;
       }
     };
 
