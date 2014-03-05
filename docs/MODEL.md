@@ -1,7 +1,7 @@
 Model
 =====
 
-This document explains the data model behind this application.
+This document explains the data model in this application.
 
 ## League
 
@@ -43,7 +43,7 @@ The match represents a single match that is or has been played between two teams
 
 ## Match log
 
-The match log is a keeps track on who played which position in a certain match.
+The match log keeps track of who played which position in which match.
 
 - match: Match, associated match
 - team: Team, associated team
