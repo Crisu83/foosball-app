@@ -21,6 +21,6 @@ If you want to build the application using phonegap you also need to do the foll
 - Run ```npm install -g phonegap```
 - If you want to build for iOS you need to have a mac
 - If you want to build for Android you need to install the Android SDK
-- Run ```grunt build && phonegap run <platform>``` to build and run the app
+- Now you should be able to run ```grunt build && phonegap run <platform>``` to build and run the app
 
 We will set up a docker image that includes all of this when we have time.
