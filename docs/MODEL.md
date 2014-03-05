@@ -50,5 +50,5 @@ The match log keeps track of who played which position in which match.
 - player: Player, associated player
 - position: string, position played (attacker/defender)
 
-Keep in mind that this is a high-level overview of the application data model and it could change during development.
-That said it should still give a decent picture of how the data is structured within the application.
+__Keep in mind that this is a high-level overview of the application data model and it could change during development.
+That said it should still give a decent picture of how the data is structured within the application.__
