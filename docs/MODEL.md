@@ -40,7 +40,7 @@ The match represents a single match that is or has been played between two teams
 - homeGoals: number, amount of goals for the home team
 - awayGoals: number, amount of goals for the away team
 - goalsToWin: number, amount of goals required to win the match
-- minGoalDiff: number, minumum number of goal difference required to win (1-2)
+- minGoalDiff: number, minumum difference in goals required to win (1-2)
 - startTime: date, date when the game started
 - endTime: date, when the game ended
 - league: League, associated league (1)
