@@ -52,7 +52,7 @@ The goal log stores player specific statistics for each match.
 - match: Match, associated match
 - team: Team, associated team
 - player: Player, associated player
-- position: string, position played (attacker/defender/both)
+- position: enum, position played (attacker/defender/both)
 - goals: int, number of goals scored
 
 __Keep in mind that this is a high-level overview of the application data model and it could change during development.
